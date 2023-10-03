@@ -34,22 +34,22 @@ num = 5
 
 
 num=20
-#a=0
-#b=1
-#i=0
-#
-#while i<num:
-#   
-#    if (i == 0):
-#        print(i)
-#    elif(i == 1):
-#        print(i)
-#    else:
-#        ans=a+b
-#        print(ans)
-#        a=b
-#        b=ans
-#    i=i+1     
-#    
-#
+a=0
+b=1
+i=0
+
+while i<num:
+   
+    if (i == 0):
+        print(i)
+    elif(i == 1):
+        print(i)
+    else:
+        ans=a+b
+        print(ans)
+        a=b
+        b=ans
+    i=i+1     
     
+
+   

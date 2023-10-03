@@ -15,7 +15,7 @@ for i in range (row):
       print(matrix[i][j],end=" ")
     print()  
 
-
+"hello how are you "
 
 
 #x=int(input("enter a number row:"))
