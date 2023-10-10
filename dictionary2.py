@@ -1,7 +1,6 @@
-import time
+
 
 def myfuntion():
- s=time.time()
  
  this_school = {"class9":[10,20,30,40,50]
      ,
@@ -26,8 +25,8 @@ def myfuntion():
         print("student ",i , " of ", name," scored ", this_school[name][i])
  else:
   print("no record")
- e=time.time()
- print(e=s) 
+ 
+ 
 myfuntion()
     
 

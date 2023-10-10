@@ -112,7 +112,7 @@ else:
 
 #special
 
-
+s
 st="geeks for ++*& geeks"
 c = 0
 for i in range (len(st)):
