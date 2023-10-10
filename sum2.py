@@ -52,17 +52,24 @@
             
 #			print(i,"*",j,"=",i*j)
     
-#print()
-st= "hello"
-sentence =st.split(". ")
+##print()
+#st= "hello"
+#sentence =st.split(" ")
+#print(sentence)
+#
+#temp = []
+#
+#for i in sentence:
+#    if i[-1] != ".":
+#        i += "."
+#    temp.append(i)
+#
+#
+#for a in temp:
+#    print(a, end='\n\n')
+#
+#
 
-temp = []
-
-for i in sentence:
-    if i[-1] != ".":
-        i += "."
-    temp.append(i)
 
 
-for a in temp:
-    print(a, end='\n\n')
+
