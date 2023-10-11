@@ -41,3 +41,20 @@ if c:
     print("special character is used")   
 else:
     print("no special character")
+
+
+
+
+
+
+ #n = 1234
+#digits = []
+#while n>0:
+#    digits.append(n%10)
+#    n//=10
+#    
+#
+#print(digits)
+
+
+   

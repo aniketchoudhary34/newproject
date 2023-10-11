@@ -28,21 +28,21 @@
 #      mat[i][j]=0
 
 
-#digits = [1, 2, 5]
-#n = len(digits) -1
-#for i in range (n):
-#
-#      print(i)
-#        
-#      if i < 0:
-#              print(digits)
-#              digits = [1] + digits
-#      else:
-#              print(digits)
-#              digits[n] = digits[n] + 1
-#print(digits)
-#
-#
+digits = [1, 2, 5]
+n = len(digits) -1
+for i in range (n):
+
+      print(i)
+        
+      if i < 0:
+              print(digits)
+              digits = [1] + digits
+      else:
+              print(digits)
+              digits[n] = digits[n] + 1
+print(digits)
+
+
 
 
 #=1235

@@ -9,6 +9,7 @@
 #
 
 arr=[1,2,3,4,5]
-for i in range (len(arr)):
-    cube=i//2
-    print(cube)
+n=len(arr)
+for i in range ((n-1)):
+    print(i)
+  
