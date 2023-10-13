@@ -1,16 +1,3 @@
-
-#n=1
-# 
-#while n<10: 
-#   
-#    print(n)
-#     
-#    n=n+1
-#
-
-
-
-
 #remove element
 
 arr=[1,2,4,5,4,3,4,1,2,4,5]

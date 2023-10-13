@@ -4,8 +4,8 @@ while i<n:
   if (i == 10):
    continue
    
-print(i)
-i+=1
+  print(i)
+  i +=1
 
 
 
