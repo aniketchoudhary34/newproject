@@ -14,17 +14,19 @@ def myfuntion():
  name =(input("enter a class name: "))
  counter=0
 
- if name in this_school.keys():                                            
+ if name in this_school.keys():  
+     print("hello",name)                                          
 #      i=0
 #      for i in  (this_school[name]):
          
 #          counter+=1
 #          print("student",counter,name,i)
-     for i in  range(len(this_school[name])):
-         
-        print("student ",i , " of ", name," scored ", this_school[name][i])
- else:
-  print("no record")
+ #    for i in  range(len(this_school[name])):
+ #       
+ #        
+ #       print("student ",i , " of ", name," scored ", this_school[name][i])
+ #else:
+ # print("no record")
  
  
 myfuntion()
