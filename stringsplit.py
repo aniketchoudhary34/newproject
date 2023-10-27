@@ -20,7 +20,7 @@
  #print ('Current Number:', )
 # print(i)
 
-st="geeks for ++*& geeks"
+st="geeks for  geeks"
 c = 0
 for i in range (len(st)):
     if st[i] == "=" or st[i] == "+" or st[i] == "-" or st[i] == "*" or st[i] == "%" or st[i] == "&" or st[i] == "!" or st[i] == ":":

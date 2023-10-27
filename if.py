@@ -1,6 +1,6 @@
 def result():
 
- m=56
+ m=int(input("enter a number:"))
 
  if(m>=80):
      print("A grade")
