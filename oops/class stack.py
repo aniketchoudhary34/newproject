@@ -1,45 +1,39 @@
-class Stack:
+class stack:
     def __init__(self):
         self.items = []
-
-    def push(self, item):
-        self.items.append(item)
-
+    def push(self,item):
+        return self.items.append(item)
     def pop(self):
-        if not self.is_empty():
+        if not self.isempty():
             return self.items.pop()
         else:
-            return "Cannot pop from an empty stack."
-
-    def is_empty(self):
+            return "empty stack"
+    def isempty(self):
         return len(self.items) == 0
-
     def size(self):
         return len(self.items)
-
     def peek(self):
-        if not self.is_empty():
+        if not self.isempty():
             return self.items[-1]
         else:
-            return "Empty stack."
+            return "empty stack"
+stacks =stack()
+stacks.push(0)                
+stacks.push(1)
+stacks.push(2)
+stacks.push(3)
+stacks.push(4)
 
-# Example usage
-stack = Stack()
-stack.push(0)
-stack.push(1)
-stack.push(2)
-stack.push(3)
-stack.push(4)
 
-print("Stack size:", stack.size())
-print("Top element:", stack.peek())
-popped_item = stack.pop()
-print("\nPopped item:", popped_item)
-print("\nStack size:", stack.size())
-print("Top element:", stack.peek())
+print(stacks.size())
+print(stacks.peek())
+popped_items = stacks.pop()
+print(popped_items)
+print(stacks.size())
+print(stacks.peek())
 
-#----------------------------------------
-stack1 = Stack()
-print("\nStack size:", stack1.size())
-popped_item = stack1.pop()
-print("\nPopped item:", popped_item)
+
+stack1 = stack()
+print(stack1.size())
+popped_items = stack1.pop()
+print(popped_items)
