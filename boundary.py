@@ -7,10 +7,7 @@ for i in range(row):
         val=int(input("enter a number: "))
         a.append(val)
     matrix.append(a)
-
-
-
-
+    
 l=[]
 
 for i in range (row):

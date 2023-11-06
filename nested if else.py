@@ -25,7 +25,7 @@
 
 username = input("enter your name: ")
 password = input("enter your password: ")
-if username == "aniket":
+if username == "akki choudhary":
     if password == "Aniket@880":
         print ("login successful welcome, admin")
     elif password == "12345":
