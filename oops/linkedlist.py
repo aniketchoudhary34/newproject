@@ -22,7 +22,14 @@ class linkedlist:
               current.next=prev
               prev=current
               current=next
-          self.start=prev              
+          self.start=prev 
+      def length(self): 
+          temp=self.start
+          count=0
+          while (temp):
+               count +=1
+               temp=temp.next
+          return count
       def deletefirst(self):
           if self.start == None:
               print("linked list is empty")
@@ -45,9 +52,8 @@ mylist.insertlast(30)
 mylist.insertlast(40)
 mylist.viewlist()
 print()
-mylist.deletefirst()
-mylist.reverse() 
-mylist.viewlist()
+print(mylist.length())
+
 
 
 

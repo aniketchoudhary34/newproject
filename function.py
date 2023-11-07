@@ -10,19 +10,7 @@
 #                        temp=temp.next
 #hello()   
 
-
-
-
-def delNode(head, K):
-    K=2
-    # Code here
-    temp =head
-    while temp!=None:
-        if temp == k:
-             temp=temp.next
-             temp=temp.next
-        else:
-             temp=temp.next
-    return head
-
-delNode(1,2,4,5)
+n=[1,2,3,4,5]
+i=0
+while i<n:
+    print(i)

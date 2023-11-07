@@ -1,15 +1,16 @@
-#n=5
+head=12
 # 
-#i=1
+
 #cube=0
 #while i<=n:
 #    cube=i**3
 #    i=i+1
 #    print(cube)
-#
 
-
-import whole
-
-whole
-
+hea
+            temp=head
+            count=0
+            while (temp):
+                  count +=1
+                  temp=temp.next
+            return count    
