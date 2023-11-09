@@ -23,6 +23,15 @@ class linkedlist:
               prev=current
               current=next
           self.start=prev 
+      def detectLoop(self):
+        slow_p = self.head
+        fast_p = self.head
+        while(slow_p and fast_p and fast_p.next):
+            slow_p = slow_p.next
+            fast_p = fast_p.next.next
+            if slow_p == fast_p:
+                return 1
+        return 0    
       def length(self): 
           temp=self.start
           count=0
@@ -34,7 +43,6 @@ class linkedlist:
           if self.start == None:
               print("linked list is empty")
           else:
-              
               self.start=self.start.next 
       def insertlast(self,value):
           newnode=node(value)
@@ -53,8 +61,8 @@ mylist.insertlast(40)
 mylist.viewlist()
 print()
 print(mylist.length())
-
-
+mylist.detectLoop()
+mylist.viewlist()
 
 
 
@@ -143,3 +151,7 @@ print(mylist.length())
 #NewDoublyLinkedList.DeleteAtStart()
 ## Display Data
 #NewDoublyLinkedList.Display()
+
+
+
+
