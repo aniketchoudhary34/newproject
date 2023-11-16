@@ -24,8 +24,9 @@ class LinkedList:
         while(temp):
             print(temp.data)
             temp = temp.next
- 
+    
     def detectLoop(self):
+        
         slow_p = self.head
         fast_p = self.head
         while(slow_p and fast_p and fast_p.next):
@@ -49,4 +50,16 @@ if(llist.detectLoop()):
     print("Loop Found")
 else:
     print("No Loop")
- 
+
+
+
+
+
+
+#def dectectfirst(self):
+#        meet=detectLoop
+#        start=self.head
+#        while (start!=meet):
+#            start=start.next
+#            meet=meet.next       
+#        return start
